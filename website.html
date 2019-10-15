@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" href="css/bootstrap.css">
+    <link type="text/css" href="css/bootstrap-grid.css">
+    <link type="text/css" href="css/bootstrap-reboot.css">
+</head>
+<body>
+
+<button class="btn bth-primary" onclick="test1()">Test 1</button>
+<button class="btn bth-primary" onclick="test2()">Test 2</button>
+
+<script src="js/module.js"></script>
+<script src="js/bootstrap.js" ></script>
+
+<script>
+    function test1() {
+        var foo = 1;
+        var bar = foo++;
+
+        console.log(foo, bar);
+    }
+
+
+    function test2() {
+        var t1 = myTestModuel.getTest();
+        var t2 = myTestModuel.calcTest(t1);
+
+        console.log(t1, t2);
+    }
+
+</script>
+
+</body>
+</html>
